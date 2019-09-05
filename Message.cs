@@ -2,7 +2,6 @@
 
 namespace Chat.Messages
 {
-    // I will add here some comments for git submodules testing purposes
 	public class Message
 	{
 		public Type TypeInfo { get; set; }
