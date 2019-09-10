@@ -16,7 +16,7 @@ namespace Chat.Messages
 			Timestamp = DateTimeOffset.Now;
 		}
 
-		public Message(string username)
+		public Message(string username) : this()
 		{
 			Username = username;
 		}
